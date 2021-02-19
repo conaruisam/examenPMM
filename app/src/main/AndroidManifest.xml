@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.notas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.notas.Activities.primerActivity"
+                  android:label="@string/listadoNotas">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.notas.Activities.EditNote"
+            android:label="@string/EditRobotActivity" />
+        <activity
+            android:name="com.example.notas.Activities.NewNote"
+            android:label="@string/NewRobotActivity" />
+        <activity
+            android:name="com.example.notas.Activities.SeeNote"
+            android:label="@string/SeeNote" />
+        <activity
+            android:name="com.example.notas.Activities.MainActivity"
+            android:label="@string/listadoNotas">
+        </activity>
+        <activity
+            android:name="com.example.notas.Activities.preferencesActivity"
+            android:label="@string/listadoNotas">
+        </activity>
+        <activity
+            android:name="com.example.notas.Adapters.notaAdapter"
+            tools:ignore="Instantiatable,WrongManifestParent" />
+        <activity
+            android:name="com.example.notas.Adapters.notaViewHolder"
+            tools:ignore="Instantiatable,WrongManifestParent" />
+    </application>
+
+</manifest>

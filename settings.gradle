@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "PMM_2EVAL_Practica1"

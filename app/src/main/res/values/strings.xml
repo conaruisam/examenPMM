@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Listado de notas</string>
+    <string name="listadoNotas">Listado de notas.</string>
+    <string name="SeeNote">Detalle de una nota.</string>
+    <string name="NewRobotActivity">Creación de un nota.</string>
+    <string name="EditRobotActivity">Edición de un nota.</string>
+    <string name="TextViewInicio">Todavía no existe ningún nota en el sistema</string>
+    <string name="nota">Nota</string>
+    <string name="notas">Notas</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="new_note">Nueva nota</string>
+    <string name="titulo">Título:</string>
+    <string name="descripcionN">Descripción:</string>
+    <string name="fecha">Fecha:</string>
+    <string name="tipo">Tipo:</string>
+    <string name="btn_crearnota">CREAR NOTA</string>
+    <string name="descripcion">Será la imagen del nota</string>
+    <string name="editar">EDITAR</string>
+    <string name="confirmar">CONFIRMAR</string>
+    <string name="borrar">BORRAR</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="reiniciar">Reinicar</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="title_activity_primer">PrimerActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="bienvenida">"¡Bienvenido!"</string>
+    <string name="intrNombre">"Introduzca su nombre, por favor."</string>
+    <string name="entrar">"Entrar"</string>
+</resources>

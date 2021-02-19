@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Usuario">
+        <EditTextPreference
+            android:key="opc_nick"
+            android:title="Nick"
+            android:id="@+id/opcnombre"
+            android:summary="Nick o nombre de usuario utilizado en la aplicación"
+            android:defaultValue="Usuario"
+            android:dialogTitle="Introduce el nick que usaras en la aplicación" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
